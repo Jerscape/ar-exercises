@@ -48,20 +48,20 @@ You can work with the models with irb by running
 ## Exercises
 
 ### Exercise 1: Create 3 stores
-
+<!-- 
 1. Use Active Record's `create` class method multiple times to create 3 stores in the database:
 
 - Burnaby (annual_revenue of 300000, carries men's and women's apparel)
 - Richmond (annual_revenue of 1260000 carries women's apparel only)
 - Gastown (annual_revenue of 190000 carries men's apparel only)
 
-2. Output (`puts`) the number of the stores using ActiveRecord's `count` method, to ensure that there are three stores in the database.
+2. Output (`puts`) the number of the stores using ActiveRecord's `count` method, to ensure that there are three stores in the database. -->
 
 ### Exercise 2: Update the first store
 
-1. Load the first store (with `id = 1`) from the database and assign it to an instance variable `@store1`.
-2. Load the second store from the database and assign it to `@store2`.
-3. Update the first store (`@store1`) instance in the database. (Change its name or something.)
+<!-- 1. Load the first store (with `id = 1`) from the database and assign it to an instance variable `@store1`. -->
+<!-- 2. Load the second store from the database and assign it to `@store2`.
+3. Update the first store (`@store1`) instance in the database. (Change its name or something.) -->
 
 ### Exercise 3: Delete the third store
 
