@@ -20,6 +20,9 @@ end
 
 #I note the curious syntax of the next line, where the column name and condition are wrappped in ''
 @womens_stores = Store.where(womens_apparel: true).where('annual_revenue < ?', 1000000)
+#alternative method for multiple where (put them in a hash)
+# @womens_stores = Store.where(womens_apparel: true, annual_revenue: 0..99999)
 @womens_stores.each do |store|
   puts "Store name: #{store.name}, annual_revenue: #{store.annual_revenue}, VALIDATION: #{store.womens_apparel}"
 end
+
