@@ -14,9 +14,6 @@ puts "this is the count of stores: #{Store.count}"
 
 
 
-
-
-
 #store stable structure for reference
 # t.column :name, :string
 # t.column :annual_revenue, :integer
