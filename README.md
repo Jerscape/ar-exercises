@@ -82,10 +82,10 @@ You can work with the models with irb by running
 4. Do another fetch but this time load stores that carry women's apparel and are generating less than $1M in annual revenue. -->
 
 ### Exercise 5: Calculations
-
-1. Output the total revenue for the entire company (all stores), using Active Record's `.sum` calculation method.
-2. On the next line, also output the average annual revenue for all stores.
-3. Output the number of stores that are generating $1M or more in annual sales. **Hint:** Chain together `where` and `size` (or `count`) Active Record methods.
+<!-- 
+1. Output the total revenue for the entire company (all stores), using Active Record's `.sum` calculation method. -->
+<!-- 2. On the next line, also output the average annual revenue for all stores. -->
+<!-- 3. Output the number of stores that are generating $1M or more in annual sales. **Hint:** Chain together `where` and `size` (or `count`) Active Record methods. -->
 
 ### Exercise 6: One-to-many association
 
